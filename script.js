@@ -7,3 +7,10 @@
 // 4.Vypište obsah proměnné :var[wageInCzk] do webové stránky tak, aby na stránce byl nadpis h1 s obsahem:
 
 // Mzda v korunách: 532 Kč
+
+let wageInEur = 20
+let kurzEuro = 24.55
+var wageInCzk = Math.round(wageInEur * kurzEuro)
+
+document.body.innerHTML += "<h1>Mzda v korunách: " + wageInCzk + " Kč<h1>"
+
