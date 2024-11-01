@@ -9,8 +9,8 @@
 // Mzda v korunách: 532 Kč
 
 let wageInEur = 20
-let kurzEuro = 24.55
-var wageInCzk = Math.round(wageInEur * kurzEuro)
+let rate = 24.55
+var wageInCzk = Math.round(wageInEur * rate)
 
 document.body.innerHTML += "<h1>Mzda v korunách: " + wageInCzk + " Kč<h1>"
 
